@@ -33,7 +33,6 @@
     </pluginManagement>
     <plugins>
       <plugin>
-        <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.4.2</version>
@@ -60,11 +59,9 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[3.9.9,)</version>
-                </requireMavenVersion>
+                  <version>[3.8.7,)</version> </requireMavenVersion>
                 <requireJavaVersion>
-                  <version>[21,)</version>
-                </requireJavaVersion>
+                  <version>[17,)</version> </requireJavaVersion>
               </rules>
             </configuration>
           </execution>
